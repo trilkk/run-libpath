@@ -1,6 +1,6 @@
 ####run-libpath
 
-Helper script and library folder for running various Linux programs (i.e. games) in [http://freebsd.org](FreeBSD) [https://www.freebsd.org/doc/handbook/linuxemu.html](Linux emulation layer).
+Helper script and library folder for running various Linux programs (i.e. games) in [FreeBSD](http://freebsd.org) [Linux emulation layer](https://www.freebsd.org/doc/handbook/linuxemu.html).
 
 The Linux compatibility settings and default installation of libraries in FreeBSD contain, by default, too old libraries to properly run most binary-only programs. This repository contains libraries and a small helper script to run those at least some games without too much of a hassle - it has libraries old enough to work but new enough to be compatible.
 
@@ -14,5 +14,5 @@ As of writing, the following programs are known to work:
 
 At the time of writing, the libraries in the repo are extracted from:
 * [CentOS](https://www.centos.org/) (libstdc++)
-* [Debian](httsp://www.debian.org/) (libssl)
+* [Debian](https://www.debian.org/) (libssl)
 * [OpenSuSE](https://www.opensuse.org/) (glibc)
